@@ -1,0 +1,75 @@
+body{
+    background-color: #eee;
+}
+.horizontal-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items  li {
+    margin-right: 15px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: black;
+}
+.left img{
+    width: 100%;
+    height: 60%; 
+    border-radius: 50;
+}
+.left h4{
+    margin-top: 10px;
+}
+.col-4 .date,
+.col-4 .user,
+.col-4 .comments {
+    font-size: 10px;
+    opacity: 0.8;
+    float: left;
+    margin-right: 5px;
+}
+.right img{
+    width: 100%;
+    height: 100%; 
+    border-radius: 50;
+}
+.relate{
+    width: 100%;
+    height: 50%;
+}
+.relate img{
+    width: 100%;
+ height: 70%;
+}
+.FeaturedPosts {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.pagination button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.new-left{
+    width: 60%;
+}
